@@ -54,6 +54,7 @@ nav ul a {
   display: flex;
   padding: 20px 50px;
   background-color: var(--bgcolor);
+  max-height: 1000px;
 }
 .hero_left {
   height: 100%;
