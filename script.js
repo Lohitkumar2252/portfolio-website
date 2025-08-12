@@ -78,7 +78,7 @@ function section2Animation() {
     trigger: ".projects_section",
     scroller: "body",
     start: "top 65%",
-    end: "top -150%",
+    end: "top -50%",
     scrub: 1,
   },
 });
@@ -134,9 +134,10 @@ gsap.from(".contact_container", {
   scrollTrigger: {
     trigger: ".contact_section",
     scroller: "body",
-    start: "top 70%",
-    end: "top 60%",
+    start: "top 80%",
+    end: "top 80%",
     scrub: 1,
+    markers: true,
   },
 })
 }
