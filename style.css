@@ -267,6 +267,12 @@ a {
   background-color: var(--bgcolor);
   scroll-margin-top: 80px;
 }
+.projects_section p {
+  font-size: 1rem;
+  color: var(--text_color);
+  text-align: center;
+  margin-bottom: 20px;
+}
 .projects_container {
   display: flex;
   flex-direction: column;
