@@ -137,7 +137,7 @@ gsap.from(".contact_container", {
     start: "top 80%",
     end: "top 80%",
     scrub: 1,
-    markers: true,
+
   },
 })
 }
